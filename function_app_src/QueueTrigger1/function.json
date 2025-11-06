@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "msg",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "deploy-events",
+      "connection": "AzureWebJobsStorage"
+    }
+  ],
+  "scriptFile": "index.js"
+}
